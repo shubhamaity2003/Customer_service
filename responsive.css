@@ -1,0 +1,178 @@
+/* Responsive Design Styles */
+
+/* Large screens (1200px and up) */
+@media screen and (max-width: 1200px) {
+    .hero_section .hero .herotext h1 {
+        font-size: 72px;
+    }
+    
+    .hero-box {
+        margin-left: 100px;
+        width: 350px;
+    }
+    
+    .about-container {
+        padding: 0 50px;
+    }
+}
+
+/* Medium-large screens (992px to 1199px) */
+@media screen and (max-width: 992px) {
+    .navbar .text {
+        margin-left: 150px;
+    }
+    
+    .hero_section .hero .herotext h1 {
+        font-size: 60px;
+    }
+    
+    .hero-box {
+        margin-left: 50px;
+        width: 300px;
+        height: 350px;
+    }
+    
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about-content {
+        max-width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .about-image {
+        max-width: 100%;
+    }
+    
+    .service-images {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .service-card {
+        width: 45%;
+        margin: 10px;
+    }
+}
+
+/* Medium screens (768px to 991px) */
+@media screen and (max-width: 768px) {
+    .navbar {
+        height: 80px;
+        padding: 0 15px;
+    }
+    
+    .navbar .text {
+        margin-left: 50px;
+    }
+    
+    .navbar .text ul {
+        display: none;
+    }
+    
+    .btn {
+        width: 150px;
+        margin-right: 20px;
+    }
+    
+    .hero_section {
+        height: 600px;
+    }
+    
+    .hero_section .hero .herotext {
+        margin-left: 20px;
+    }
+    
+    .hero_section .hero .herotext h1 {
+        font-size: 48px;
+    }
+    
+    .hero-box {
+        width: 250px;
+        height: 300px;
+        margin-left: 20px;
+    }
+    
+    .service-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .service-details-container {
+        flex-direction: column;
+    }
+    
+    .service-details-left,
+    .service-details-right {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+
+/* Small screens (576px to 767px) */
+@media screen and (max-width: 576px) {
+    .hero_section .hero .herotext h1 {
+        font-size: 36px;
+    }
+    
+    .hero-box {
+        width: 200px;
+        height: 250px;
+    }
+    
+    .about-section h1 {
+        font-size: 32px;
+        margin-left: 20px;
+    }
+    
+    .about-content {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+    
+    .footer-column {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+    }
+}
+
+/* Extra small screens (below 576px) */
+@media screen and (max-width: 480px) {
+    .navbar .logo img {
+        width: 180px;
+    }
+    
+    .btn {
+        width: 120px;
+        height: 40px;
+    }
+    
+    .btn span {
+        font-size: 16px;
+    }
+    
+    .hero_section .hero .herotext h1 {
+        font-size: 28px;
+    }
+    
+    .hero-box {
+        width: 180px;
+        height: 200px;
+    }
+    
+    .texts h1 {
+        font-size: 32px;
+    }
+    
+    .texts p {
+        font-size: 16px;
+    }
+} 
